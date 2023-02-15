@@ -8,8 +8,7 @@
 
 int main()
 {   
-    setlocale(LC_CTYPE, "spanish");
-
+    setlocale(LC_ALL, "es_MX.UTF-8");
 
     std::cout << "¡Holi!\n";
     std::cout << "Soy Daya lol\n";
